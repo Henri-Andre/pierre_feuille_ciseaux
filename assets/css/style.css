@@ -1,0 +1,52 @@
+body{
+    background-image: url(../media/img/background2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+button{
+    margin-top: 10rem;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+
+ table{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    margin:auto;
+ }
+
+ table td{
+       padding: 2rem;
+
+ }
+ 
+
+
+  

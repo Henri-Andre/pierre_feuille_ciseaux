@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pierre Papier Ciseaux</title>
+</head>
+<body>
+
+
+
+
+
+   
+    <!-- Consigne  : 
+        - 3 pts gagnant
+        - compteur des victoires
+        - Illustration
+        - Pouvoir reset 
+        - Pour choisir signe 
+        - l'ordi selectionne un signe 
+        - Message qui pop-up
+     -->
+
+     <h1>Bienvenue au jeu de pierre, papier, ciseaux !</h1>
+
+     <!--  Tableau de score -->
+     <table>
+        <tr>
+          <td>Joueur</td>
+          <td>IA</td>
+        </tr>
+        <tr>
+          <td id="score-joueur">0</td>
+          <td id="score-ia">0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+
+      <!-- Bouton -->
+<div>
+     <button id="pierre" onclick="jouer('pierre')">
+        <img src="assets/media/img/pierre.webp" alt="Pierre">
+      </button>
+      <button id="papier" onclick="jouer('papier')">
+        <img src="assets/media/img/papier.gif" alt="Papier">
+      </button>
+      <button id="ciseaux" onclick="jouer('ciseaux')">
+        <img src="assets/media/img/ciseaux.gif" alt="Ciseaux">
+      </button>
+    
+    </div>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
